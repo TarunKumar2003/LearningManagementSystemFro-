@@ -4,6 +4,7 @@ import HomePage from "./Pages/HomePage.jsx"
 import AboutUs from "./Pages/AboutUs.jsx"
 import NotFound from "./Pages/NotFound.jsx"
 import Signup from "./Pages/Signup.jsx"
+import Signin from "./Pages/Signin.jsx"
 export default function App() {
  
 
@@ -12,6 +13,12 @@ export default function App() {
        <Route path="/" element={<HomePage/>}/>
        <Route path="/about" element={<AboutUs/>}/>
        <Route path = "/signup" element={<Signup/>}/>
+       <Route path="/signin" element={<Signin/>} />
+
+
+
+
+       // This is the route  random route accessed by someone  
        <Route path="*" element={<NotFound/>}/>
        </Routes>
   )
