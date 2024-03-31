@@ -6,6 +6,8 @@ import NotFound from "./Pages/NotFound.jsx"
 import Signup from "./Pages/Signup.jsx"
 import Signin from "./Pages/Signin.jsx"
 import CourseList from "./Pages/Course/CourseList.jsx"
+import Contact from "./Pages/Contact.jsx"
+import Denied from "./Pages/Denied.jsx"
 export default function App() {
  
 
@@ -16,7 +18,8 @@ export default function App() {
        <Route path = "/signup" element={<Signup/>}/>
        <Route path="/signin" element={<Signin/>} />
        <Route path="/courses" element={<CourseList/>}/>
-
+       <Route path="/contact" element={<Contact/>}/>
+       <Route path="/denied" element={<Denied/>}  />
 
 
        // This is the route  random route accessed by someone  
