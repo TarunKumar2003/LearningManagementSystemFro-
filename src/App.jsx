@@ -8,6 +8,7 @@ import Signin from "./Pages/Signin.jsx"
 import CourseList from "./Pages/Course/CourseList.jsx"
 import Contact from "./Pages/Contact.jsx"
 import Denied from "./Pages/Denied.jsx"
+import CourseDescription from "./Pages/Course/CourseDescription.jsx"
 export default function App() {
  
 
@@ -20,7 +21,7 @@ export default function App() {
        <Route path="/courses" element={<CourseList/>}/>
        <Route path="/contact" element={<Contact/>}/>
        <Route path="/denied" element={<Denied/>}  />
-
+       <Route path="/courses/description" element={<CourseDescription/>}/>
 
        // This is the route  random route accessed by someone  
        <Route path="*" element={<NotFound/>}/>
