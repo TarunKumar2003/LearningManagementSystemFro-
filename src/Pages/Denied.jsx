@@ -10,7 +10,7 @@ export default function Denied(){
             <div className="bg-black text-white px-2 text-sm rotate-12 absolute">
                  Access denied
             </div>
-            <button onClick={()=>navigate(-1)} className="mt-5 bg-white p-5 rounded text-2xl">
+            <button onClick={()=>navigate(-1)} className="mt-5 bg-white p-5 rounded text-2xl ">
                 Go Back
             </button>
         </main>
